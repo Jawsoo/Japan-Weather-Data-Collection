@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 
 public class WeatherApiClient {
     private static final Logger logger = LoggerFactory.getLogger(WeatherApiClient.class);
-    private static final String API_KEY = "24596eb886c82fb2df51c7d1f9f10324";  // Your API key
+    private static final String API_KEY = "24596eb886c82fb2df51c7d1f9f10324";  // API key
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&appid=%s";
 
     public static String fetchWeatherData(String city) {
